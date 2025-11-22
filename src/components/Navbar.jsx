@@ -1,4 +1,4 @@
-import React from "react";
+import dayjs from "dayjs";
 import { navIcons, navLinks } from "../constants";
 
 const Navbar = () => {
@@ -25,6 +25,8 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <time>{dayjs().format("ddd MMM D h:mm A")}</time>
       </div>
     </nav>
   );

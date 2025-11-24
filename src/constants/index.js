@@ -99,6 +99,37 @@ const blogPosts = [
   },
 ];
 
+const writings = [
+  {
+    id: 1,
+    date: "Mar 15, 2025",
+    title: "Building AI Surveillance Systems at Deutics",
+    excerpt:
+      "Worked on AI-driven surveillance solutions, integrating front-end dashboards and real-time alerting systems for security monitoring.",
+  },
+  {
+    id: 2,
+    date: "Jun 2, 2025",
+    title: "Developing Camzify for Seamless User Experience",
+    excerpt:
+      "Implemented UI components, optimized performance, and maintained responsive design while collaborating with the backend team for real-time camera feeds.",
+  },
+  {
+    id: 3,
+    date: "Aug 10, 2025",
+    title: "Working on Nettbox to Streamline Operations",
+    excerpt:
+      "Focused on building modular front-end features, integrating APIs, and ensuring data visualization was clear, interactive, and responsive.",
+  },
+  {
+    id: 4,
+    date: "Coming Soon",
+    title: "Continuous Learning and Project Enhancements",
+    excerpt:
+      "Ongoing work includes refining interfaces, improving code efficiency, and adding features to enhance usability across multiple platforms.",
+  },
+];
+
 const techStack = [
   {
     category: "Frontend",
@@ -132,28 +163,22 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/sameerjohn1",
   },
   {
     id: 2,
-    text: "Platform",
+    text: "Previous Portfolio",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://d-portfolio-sameer.web.app/",
   },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
+
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/sameer-john-5a9418256/",
   },
 ];
 
@@ -209,6 +234,7 @@ export {
   navIcons,
   dockApps,
   blogPosts,
+  writings,
   techStack,
   socials,
   photosLinks,
@@ -242,7 +268,7 @@ const WORK_LOCATION = {
             "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
             "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
             "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "It's built with React.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
           ],
         },
         {
@@ -251,17 +277,17 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://shoesapplication-2f0e0.web.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
           name: "nike.png",
-          icon: "/images/image.png",
+          icon: "/images/nike.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/nike.png",
         },
         {
           id: 5,
@@ -304,7 +330,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://puter.com/app/ai-resume-analyzer-190",
           position: "top-20 left-20",
         },
         {
@@ -331,7 +357,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Clothes E-commerce Store",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,35 +365,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Clothes Store Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "This is an online eCommerce store for clothes, built with React.js.",
+            "Users can browse products, add items to cart, and checkout seamlessly.",
+            "It features a responsive design, smooth navigation, and modern UI.",
+            "The project demonstrates my skills in React, Tailwind CSS, and frontend development.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Visit Clothes Store",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://coral-894f6.web.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
-          icon: "/images/image.png",
+          name: "clothes-store.png",
+          icon: "/images/coral.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/coral.png", // yahan apni project image ka URL daal sakte ho
         },
         {
           id: 5,
@@ -375,7 +401,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://coral-894f6.web.app/", // optional, ya figma design ka link
           position: "top-60 right-20",
         },
       ],
@@ -397,7 +423,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.png",
     },
     {
       id: 2,
@@ -406,7 +432,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/casual.png",
     },
     {
       id: 3,
@@ -415,7 +441,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/conference-me.png",
     },
     {
       id: 4,
@@ -425,12 +451,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/about.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Sameer 👋, a Frontend Developer who loves building clean, modern, and responsive web experiences.",
+        "I work mainly with React.js and enjoy turning ideas into smooth, user-friendly interfaces that look good and feel even better to use. I focus on clean UI, strong UX, and writing code that stays readable—even at 2AM.",
+        "I like learning new tools and improving my craft, and I enjoy the process of solving problems and making products that people actually enjoy using.",
+        "When I’m not coding, you’ll probably find me tweaking designs, exploring new tech, or scrolling through online stores convincing myself I don’t need another new gadget 😅.",
       ],
     },
   ],

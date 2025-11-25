@@ -43,19 +43,20 @@ const Safari = () => {
           <Copy className="icon" />
         </div>
       </div>
-      <section className="py-10 px-6">
+      <section className="py-10 px-6 h-[300px] overflow-y-auto">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Heading */}
           <h2
-            className="text-6xl md:text-8xl font-black tracking-tighter text-transparent bg-clip-text 
+            className="text-3xl md:text-5xl font-black tracking-tighter text-transparent bg-clip-text 
         bg-gradient-to-r from-white via-zinc-300 to-zinc-500"
           >
-            Writings
+            Work Experience
           </h2>
 
           <p className="mt-8 text-zinc-500 text-lg md:text-xl leading-relaxed font-light">
-            Long-form thoughts on code, design, ego, burnout, and everything I
-            couldn't say in a tweet.
+            Highlights of my professional journey as a React.js Developer,
+            showcasing projects, responsibilities, and the skills I've honed
+            while contributing to real-world applications.
           </p>
         </div>
 

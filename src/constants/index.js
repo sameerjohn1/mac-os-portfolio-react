@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "Experience", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -102,31 +102,39 @@ const blogPosts = [
 const writings = [
   {
     id: 1,
-    date: "Mar 15, 2025",
-    title: "Building AI Surveillance Systems at Deutics",
-    excerpt:
-      "Worked on AI-driven surveillance solutions, integrating front-end dashboards and real-time alerting systems for security monitoring.",
+    date: "May 2024 - Oct 2025",
+    title: "React.js Developer at Deutics Global",
+    excerpt: [
+      "Built responsive and user-friendly UIs using React.js with smooth interactions.",
+      "Managed scalable state with Redux Toolkit and followed reusable component architecture.",
+      "Integrated REST APIs to handle dynamic data and real-time functionality.",
+      "Improved performance through React Hooks, memoization, and clean code practices.",
+      "Converted Figma designs into pixel-perfect production-ready interfaces.",
+      "Applied consistent color palettes and design systems across the product.",
+      "Ensured responsive and cross-browser compatibility across all devices.",
+      "Performed code refactoring, debugging, and UI testing to maintain quality.",
+    ],
   },
   {
     id: 2,
-    date: "Jun 2, 2025",
-    title: "Developing Camzify for Seamless User Experience",
-    excerpt:
-      "Implemented UI components, optimized performance, and maintained responsive design while collaborating with the backend team for real-time camera feeds.",
+    date: "Jun 2023 - Apr 2024",
+    title: "Junior React.js Developer at ZNZ Technologies",
+    excerpt: [
+      "Created reusable components and managed application state efficiently.",
+      "Developed and maintained web applications using React.js, ensuring robust functionality.",
+      "Integrated APIs to dynamically fetch and display data, enhancing interactivity.",
+      "Implemented responsive designs for seamless experience across all devices.",
+      "Collaborated with design teams to transform Figma UI/UX layouts into functional interfaces.",
+      "Engaged in code reviews, performed refactoring, and provided constructive feedback to uphold code quality.",
+    ],
   },
   {
     id: 3,
-    date: "Aug 10, 2025",
-    title: "Working on Nettbox to Streamline Operations",
-    excerpt:
-      "Focused on building modular front-end features, integrating APIs, and ensuring data visualization was clear, interactive, and responsive.",
-  },
-  {
-    id: 4,
     date: "Coming Soon",
     title: "Continuous Learning and Project Enhancements",
-    excerpt:
+    excerpt: [
       "Ongoing work includes refining interfaces, improving code efficiency, and adding features to enhance usability across multiple platforms.",
+    ],
   },
 ];
 

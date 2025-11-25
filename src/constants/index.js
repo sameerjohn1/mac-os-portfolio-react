@@ -406,6 +406,59 @@ const WORK_LOCATION = {
         },
       ],
     },
+
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Previous 3D Portfolio",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-72 left-20",
+      windowPosition: "top-[45vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "Previous Portfolio.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "This project is a fully animated 3D personal portfolio built using React and Vite.",
+            "It features smooth transitions, real-time motion effects, and a visually immersive experience.",
+            "The UI is enhanced with GSAP, Framer Motion, and Three.js to create dynamic 3D interactions.",
+            "Routing is managed with React Router DOM, while Tailwind CSS ensures clean and modern styling.",
+          ],
+        },
+        {
+          id: 2,
+          name: "Visit Portfolio",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://d-portfolio-sameer.web.app/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 3,
+          name: "portfolio-preview.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/prev-port.png",
+        },
+        {
+          id: 4,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-60 right-20",
+        },
+      ],
+    },
   ],
 };
 
